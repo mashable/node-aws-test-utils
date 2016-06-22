@@ -1,0 +1,9 @@
+{
+  "name": "aws-test-utils",
+  "description": "AWS Test Utils",
+  "version": "1.0.0",
+  "main": "lib/aws-test-utils.js",
+  "devDependencies": {
+    "aws-sdk": "latest"
+  }
+}
