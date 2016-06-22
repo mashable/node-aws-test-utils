@@ -5,5 +5,14 @@
   "main": "lib/aws-test-utils.js",
   "devDependencies": {
     "aws-sdk": "latest"
-  }
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mashable/node-aws-test-utils/issues"
+  },
+  "author": {
+    "name": "Roshan Bangera",
+    "email": "roshan@mashable.com"
+  },
+  "repository": "mashable/node-aws-test-utils"
 }
