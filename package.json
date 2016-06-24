@@ -1,8 +1,11 @@
 {
   "name": "aws-test-utils",
   "description": "AWS Test Utils",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "lib/aws-test-utils.js",
+  "dependencies": {
+    "dynamodb-data-types": "latest"
+  },
   "devDependencies": {
     "aws-sdk": "latest"
   },
