@@ -1,6 +1,14 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [2.1.0] - 2016-11-16
+### Added
+- Kinesis Test util
+
+## [2.0.0] - 2016-11-10
+### Added
+- Promise support
+
 ## [1.1.1] - 2016-06-27
 ### Updated
 - Add batching to limit number of items fetched/updated on dynamo batchGet/batchWrite method calls
