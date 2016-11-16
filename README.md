@@ -18,4 +18,16 @@ Create promise version as follows:
 
 `require('aws-test-utils').lambda`
 
-Provides utility methods to generate kinesis and dynamo stream payloads. 
+Provides utility methods to generate kinesis and dynamo stream payloads.
+
+## Kinesis
+
+`require('aws-test-utils').kinesis(kinesis_client)`
+
+Pass a [Kinesis Client](http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/Kinesis.html) to create kinesis test util object. Provides utility methods to create/delete streams, get records from stream. You will need to configure AWS credentials as per [AWS NodeJS SDK documentation](http://aws.amazon.com/developers/getting-started/nodejs/).
+
+### Promise support
+
+Create promise version as follows:
+
+`require('aws-test-utils').kinesis(kinesis_client).promise()`
